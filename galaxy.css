@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #F4F4F4;
+    width: 100vw;
+}
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    font-family: samsung;
+    font-weight: bold;
+    opacity: 0.8;
+}
+.top_bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    border-bottom: 1px solid pink;
+}
+.galaxy-z-flip {
+    padding-right: 80px;
+    padding-top: 10px;
+}
+.bar {
+    padding-top: 10px;
+}
+.second_bar {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.secondbar:hover {
+    border-top: 2px solid dodgerblue;
+    padding-top: 5px;
+} 
+.galaxy-z-flip {
+    font-size: 20px;
+    font-weight: 800;
+}
+.bar {
+    font-size: 25px;
+}
+.secondbar {
+    padding: 0 10px;
+}
+
+.zflip {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.zflip_text {
+    font-size: 50px;
+    margin: 0 100px;
+}
+.note {
+    font-size: 10px;
+}
+@font-face {
+    font-family: "samsung";
+    src: url(./Media/SamsungSharpSansRegular-Regular.woff);
+    font-weight: bold;
+}
+.main {
+    width: 80VW;
+    text-align: center;
+    margin-left: 200px;
+}
+.second_scroll {
+    display: block;
+}
+.second_scroll {
+    text-align: center;
+    margin: 75px 0;
+    font-family: samsung;
+    font-size: 18px;
+    padding: 0 400px;
+}
+.second_scroll_text {
+    margin: 5px 0;
+    padding: 5px 0;
+}
+.grid_container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 10px;
+    gap: 10px;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    border-radius: 30px;
+}
+.grid_item {
+    border-radius: 30px;
+    text-align: center;
+    height: max-content;
+    width: max-content;
+    overflow: hidden;
+}
+.item1 {
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.item2 {
+    grid-column: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.video_button {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 45px;
+}
+.image_button {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+.video1 {
+    height: 400px;
+}
+.video2 {
+    height: 100%;
+}
+button p {
+    padding-left: 25px;
+    background-color: white;
+}
+div p {
+    padding-left: 25px;
+}
+.youtube_video {
+    background-color: white;
+    width: 420px;
+    padding: 30px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.youtube_link {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.details_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.details {
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+    width: 420px;
+}
+.desc {
+    height: max-content;
+    padding: 100px 10px;
+    font-size: larger;
+}
+.title {
+    font-size:x-large;
+}
+
+.end {
+    font-size: x-large;
+    font-weight: bolder;
+}
+.flex_window {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 200px;
+    margin-top: 50px;
+    border-radius: 30px;
+    width: 80VW;
+    background-color: white;
+    padding-bottom: 50px;
+}
+.flex_window_text {
+    width: 600px;
+    margin-left: 350px;
+}
+.flip_phn {
+    border-radius: 30px;
+    width: 1000px;
+}
+.window_title {
+    font-size: 50px;
+    font-weight: bolder;
+} 
+.one_size_fits_all {
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+    padding: 100px;
+}
+.one_size_fits_all_text {
+    position: absolute;
+    right: 280px;
+    bottom: 50px;
+    text-align: left;
+    width: 500px;
+}
+.one_size_fits_all_text1 {
+    font-size: 35px;
+    font-weight: bolder;
+}
+.one_size_fits_all_text2 {
+    font-size: larger;
+}
+.colors_text {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.colors_text1 {
+    width: 500px;
+    font-size: 40px;
+}
+.colors_text2 {
+    width: 550px;
+    font-size: 20px;
+}
+.seein360 {
+    height: 75px;
+    width: 120px;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 15px;
+}
+.seein360:hover {
+    background-color: black;
+    color: white;
+}
+@media screen and (max-width: 1024px) {
+    .top_bar {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 15px;
+        border-bottom: 1px solid pink;
+    }   
+}
